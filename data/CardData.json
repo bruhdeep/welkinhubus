@@ -1,0 +1,91 @@
+{
+  "managedServices": [
+    {
+      "title": "Virtual Private Server",
+      "description": "Unleash Your Online Potential with WelkinHubUS VPS - Where Performance Meets Precision!",
+      "imageurl": "https://welkinhubus.com/wp-content/uploads/elementor/thumbs/taylor-vick-M5tzZtFCOfs-unsplash-scaled-qg49bo989arpd9ma8tde4d2mwep1ikmm28ktvrlqb4.jpg",
+      "redirecturl": ""
+    },
+    {
+      "title": "Web Hosting",
+      "description": "Unleash the Power of Your Online Presence with WelkinHub Web Hosting.",
+      "imageurl": "https://welkinhubus.com/wp-content/uploads/elementor/thumbs/vps2-qg49n5u7sehv9oxj5s58lgpg9y2jle8ib3mh1iki9c.jpg",
+      "redirecturl": ""
+    },
+    {
+      "title": "Email Hosting",
+      "description": "Elevate Your Communication Seamlessly with WelkinHubUS Email Hosting - Where Security Meets Collaboration!",
+      "imageurl": "https://welkinhubus.com/wp-content/uploads/elementor/thumbs/marc-pezin-i_JUAdanGH0-unsplash-1-scaled-qg49mwftw2501lb6oo2ywj2uc3cvgf76xt3m8qyfzk.jpg",
+      "redirecturl": ""
+    },
+    {
+      "title": "Backup & Replication",
+      "description": "Safeguarding Tomorrow, Today - WelkinHubUS Backup and Replication, Your Digital Fortress!",
+      "imageurl": "https://welkinhubus.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2023-08-20-at-4.54.25-PM-qg49n7pw62kfwwususyhqg8dgpta0sfyzcxg02hpww.jpeg",
+      "redirecturl": ""
+    }
+  ],
+
+  "softwareServices": [
+    {
+      "title": "IT Consulting and Services on Modern Technology",
+      "description": "Elevating Businesses Through Innovative IT Consulting and Modern Technology Solutions.",
+      "imageurl": "https://welkinhubus.com/wp-content/uploads/elementor/thumbs/training-scaled-qg478i3vp9v6vwt46tmh7tyko37axz7e26dx8525ww.jpg",
+      "redirecturl": ""
+    },
+    {
+      "title": "Software Development",
+      "description": "Empowering Your Business Through Innovative Software Solutions.",
+      "imageurl": "https://welkinhubus.com/wp-content/uploads/elementor/thumbs/id-scaled-qaxkouhy1ra27j2nf74m3ajc4e3bojdl0fh4pon71s.jpg",
+      "redirecturl": ""
+    },
+    {
+      "title": "Infrastructure Development",
+      "description": "We help business by providing our team of experts to manage sourcing, operations and maintenance of its IT Infrastructure.",
+      "imageurl": "https://welkinhubus.com/wp-content/uploads/elementor/thumbs/infrastructure-scaled-qg4617ngxyls6fouz3z1dr8br8kqftcffwqvjd8whc.jpg",
+      "redirecturl": ""
+    },
+    {
+      "title": "System Integrating",
+      "description": "Unifying Excellence: Welkin Hub’s Seamless System Integration for Your Success.",
+      "imageurl": "https://welkinhubus.com/wp-content/uploads/elementor/thumbs/system-integration-scaled-qg482kxyef1iep48jtop08pkzyy59am671xa2wgmsw.jpg",
+      "redirecturl": ""
+    }
+  ],
+
+  "educationservices": [
+    {
+      "title": "IT Training, Education, Job Placement Solution",
+      "description": "Nurturing IT Excellence, Guiding Careers: Welkin Hub’s Pathway to Digital Success.",
+      "imageurl": "https://welkinhubus.com/wp-content/uploads/elementor/thumbs/it-cons-scaled-qg475w40puaimwlnfozsahoh9k2lk8u8d95d8gxj74.jpg",
+      "redirecturl": ""
+    }
+  ],
+
+  "otherservices": [
+    {
+      "title": "Digital Marketing",
+      "description": "Connect with your audience, anywhere and anytime, through the power of digital marketing.",
+      "imageurl": "https://welkinhubus.com/wp-content/uploads/elementor/thumbs/sm-qipue3aqeu1dzbmiqbsmlexrvnxtnhhnkoyash19gw.jpg",
+      "redirecturl": ""
+    },
+    {
+      "title": "E-Commerce Solution",
+      "description": "Transforming Transactions, Elevating Experiences: Welkin Hub’s E-commerce Expertise at Your Service.",
+      "imageurl": "https://welkinhubus.com/wp-content/uploads/elementor/thumbs/scott-graham-5fNmWej4tAA-unsplash-scaled-qaxwm1kyoetfhnn37pxzlzicw6mwd59bcr8ng49pww.jpg",
+      "redirecturl": ""
+    },
+    {
+      "title": "Trading",
+      "description": "Empowering Global Trade: Welkin Hub – Your Gateway to Worldwide Opportunities.",
+      "imageurl": "https://welkinhubus.com/wp-content/uploads/elementor/thumbs/trading-qg47x3juj7jaol2ykgd1gmis91z2cuujfwxbaslb3k.jpg",
+      "redirecturl": ""
+    },
+    {
+      "title": "IT Support and Helpdesk",
+      "description": "Navigating Technology Together: Welkin Hub’s Reliable IT Support at Your Service.        ",
+      "imageurl": "https://welkinhubus.com/wp-content/uploads/elementor/thumbs/it-support-scaled-qg484kdottrax28gyokc9qom5961iahrsvi6jxipo0.jpg",
+      "redirecturl": ""
+    }
+  ]
+}
