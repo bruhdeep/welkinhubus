@@ -14,10 +14,10 @@ export default function Home() {
         navimg={"homebg.jpg"}
         navtext={"Connecting Technology to the needs of Business"}
         navdesc={""}
-        learnmorelink={""}
+        learnmorelink={"#managedservice"}
       />
       <div className="lg:px-[20%] px-[10%]">
-        <div className="text-3xl font-bold pt-5">Managed Services</div>
+        <div className="text-3xl font-bold pt-5" id="managedservice">Managed Services</div>
         <div className="flex flex-wrap gap-10 mt-5">
           {cardata.managedServices.map((data, index) => (
             <Card
@@ -78,14 +78,15 @@ export default function Home() {
             available in the market and are tailored to your specific needs. No
             job is too big or too small, because we have the capability and
             appropriate resources to deliver both.
-          </div>
+          </div>        
         </div>
+        
 
         <div className="flex justify-center gap-2 pt-20">
           {Array.from({ length: 5 }).map((_, i) => (
             <FaStar key={i} color="gold" size={30} />
           ))}
-        </div>
+        </div> 
 
         <div className="w-full lg:h-96 bg-[#262626] rounded-2xl lg:flex text-white mt-20">
           <div className="lg:w-[60%] flex justify-center items-center p-3  ">

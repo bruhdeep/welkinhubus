@@ -28,26 +28,106 @@ const Navbar = ({
           <img src="welkinlogo.png" alt="" />
         </div>
         <div>
-          <div className="hidden lg:flex ">
+          <div className="hidden lg:flex lg:items-stretch  ">
             <ul className="menu menu-horizontal px-1 ">
               <li className="">
-                <a>Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
                 <details>
                   <summary>Services</summary>
-                  <ul className="text-black">
-                    <li className="drowdown">
-                      <a>Managed Services</a>
+                  <ul className="text-black w-64">
+                    <li>
+                      <details>
+                        <summary>Managed Services</summary>
+                        <ul>
+                          <li>
+                            <a href="/vps">Virtual Private Server</a>
+                          </li>
+                          <li>
+                            <a href="/web-hosting">Web Hosting</a>
+                          </li>
+                          <li>
+                            <a href="/email-hosting">Email Hosting</a>
+                          </li>
+                          <li>
+                            <a href="/backup-and-replication">
+                              Backup & Replication
+                            </a>
+                          </li>
+                        </ul>
+                      </details>
                     </li>
                     <li>
-                      <a>IT Consulting and Services on Modern Technologies</a>
+                      <details>
+                        <summary>
+                          IT Consulting and Services on Modern Technology
+                        </summary>
+                        <ul>
+                          <li>
+                            <a href="/planning-and-management">
+                              Planning and Management
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/cloud-computing">Cloud Computing</a>
+                          </li>
+                          <li>
+                            <a href="/data-analytics-and-business-intelligence">
+                              Data Analytics and Business Intelligence
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/cyber-security">Cyber Security</a>
+                          </li>
+                        </ul>
+                      </details>
                     </li>
                     <li>
-                      <a>Software Development and Consulting</a>
+                      <details>
+                        <summary>Software Development and Consulting</summary>
+                        <ul>
+                          <li>
+                            <a href="/software-development">
+                              Software Development
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/infrastructure-development">
+                              Infrastructure Development
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/system-integration">System Integration</a>
+                          </li>
+                        </ul>
+                      </details>
                     </li>
                     <li>
-                      <a>Education and Placement</a>
+                      <details>
+                        <summary>Education and Placement</summary>
+                        <ul>
+                          <li>
+                            <a href="/it-training-education-job-placement-solutions">
+                              IT Training, Education, Job Placement Solutions
+                            </a>
+                          </li>
+                        </ul>
+                      </details>
+                    </li>
+                    <li>
+                      <a href="/digital-marketing">Digital Marketing</a>
+                    </li>
+                    <li>
+                      <a href="/e-commerce-solutions">E-commerce Solutions</a>
+                    </li>
+                    <li>
+                      <a href="/trading">Trading</a>
+                    </li>
+                    <li>
+                      <a href="/it-support-and-helpdesk">
+                        IT Support and Helpdesk
+                      </a>
                     </li>
                   </ul>
                 </details>
@@ -68,50 +148,142 @@ const Navbar = ({
               </button>
             </div>
           </div>
-          <div className="dropdown dropdown-bottom dropdown-end">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
+          <div className="flex justify-between items-center gap-1 lg:hidden">
+            <button className="btn btn-sm bg-blue-500 border-none text-white">
+              Support
+            </button>
+
+            <div className="dropdown dropdown-bottom dropdown-end">
+              <div
+                tabIndex={0}
+                role="button"
+                className="btn btn-ghost lg:hidden"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />
-              </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabIndex={0}
+                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-black"
+              >
+                <li className="">
+                  <a href="/">Home</a>
+                </li>
+                <li>
+                  <details>
+                    <summary>Services</summary>
+                    <ul className="text-black">
+                      <li>
+                        <details>
+                          <summary>Managed Services</summary>
+                          <ul>
+                            <li>
+                              <a href="/vps">Virtual Private Server</a>
+                            </li>
+                            <li>
+                              <a href="/web-hosting">Web Hosting</a>
+                            </li>
+                            <li>
+                              <a href="/email-hosting">Email Hosting</a>
+                            </li>
+                            <li>
+                              <a href="/backup-and-replication">
+                                Backup & Replication
+                              </a>
+                            </li>
+                          </ul>
+                        </details>
+                      </li>
+                      <li>
+                        <details>
+                          <summary>
+                            IT Consulting and Services on Modern Technology
+                          </summary>
+                          <ul>
+                            <li>
+                              <a href="/planning-and-management">
+                                Planning and Management
+                              </a>
+                            </li>
+                            <li>
+                              <a href="/cloud-computing">Cloud Computing</a>
+                            </li>
+                            <li>
+                              <a href="/data-analytics-and-business-intelligence">
+                                Data Analytics and Business Intelligence
+                              </a>
+                            </li>
+                            <li>
+                              <a href="/cyber-security">Cyber Security</a>
+                            </li>
+                          </ul>
+                        </details>
+                      </li>
+                      <li>
+                        <details>
+                          <summary>Software Development and Consulting</summary>
+                          <ul>
+                            <li>
+                              <a href="/software-development">
+                                Software Development
+                              </a>
+                            </li>
+                            <li>
+                              <a href="/infrastructure-development">
+                                Infrastructure Development
+                              </a>
+                            </li>
+                            <li>
+                              <a href="/system-integration">
+                                System Integration
+                              </a>
+                            </li>
+                          </ul>
+                        </details>
+                      </li>
+                      <li>
+                        <details>
+                          <summary>Education and Placement</summary>
+                          <ul>
+                            <li>
+                              <a href="/it-training-education-job-placement-solutions">
+                                IT Training, Education, Job Placement Solutions
+                              </a>
+                            </li>
+                          </ul>
+                        </details>
+                      </li>
+                    </ul>
+                  </details>
+                </li>
+                <li>
+                  <a>About Us</a>
+                </li>
+                <li>
+                  <a>Contact Us</a>
+                </li>
+              </ul>
             </div>
-            <ul
-              tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-black"
-            >
-              <li>
-                <a>Homne</a>
-              </li>
-              <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a>Item 3</a>
-              </li>
-            </ul>
+            <button>
+              <GoPersonFill size={25} />
+            </button>
           </div>
         </div>
       </div>
       <div className="h-full flex items-center px-[5%] lg:px-[20%]">
-        <div className="w-[50%]">
+        <div className="lg:w-[60%]">
           <p className="text-[2.5rem] font-extrabold">{navtext}</p>
           <p>{navdesc}</p>
           <br />
