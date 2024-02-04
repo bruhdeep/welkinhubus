@@ -2,36 +2,38 @@
 import React from "react";
 
 const Card = ({
+  title,
   tier,
   price,
-  cpu,
-  ram,
-  storage,
+  spec1,
+  spec2,
+  spec3,
 }: {
+  title: string;
   tier: string;
   price: string;
-  cpu: string;
-  ram: string;
-  storage: string;
+  spec1: string;
+  spec2: string;
+  spec3: string;
 }) => {
   return (
     <div className="">
       <div className="flex flex-col bg-white border-2 rounded-3xl w-60">
         <div className="px-6 py-8 sm:p-9 sm:pb-6">
           <div className="grid items-center justify-center w-full grid-cols-1 text-left">
-          <h2>Virtual Private Server</h2>
+          <h2>{title}</h2>
             <div className="">
               <h2 className="text-2xl font-bold tracking-tighter text-black lg:text-3xl">
                 {tier}
               </h2>
               <p className="mt-2 text-sm text-gray-500">
-                {cpu}CORE CPU
+                {spec1}CORE CPU
               </p>
               <p className="mt-2 text-sm text-gray-500">
-                {ram}GB RAM
+                {spec2}GB RAM
               </p>
               <p className="mt-2 text-sm text-gray-500">
-                {storage}GB Storage
+                {spec3}GB Storage
               </p>
               <p className="mt-2 text-sm text-gray-500">
                 24/7 Customer Support

@@ -1,0 +1,100 @@
+{
+  "vpsTiers": [
+    {
+      "title": "Virtual Private Server",
+      "tier": "BRONZE",
+      "price": "11",
+      "cpu": "1",
+      "ram": "2",
+      "storage": "40"
+    },
+    {
+      "title": "Virtual Private Server",
+      "tier": "SILVER",
+      "price": "20",
+      "cpu": "2",
+      "ram": "4",
+      "storage": "100"
+    },
+    {
+      "title": "Virtual Private Server",
+      "tier": "GOLD",
+      "price": "41",
+      "cpu": "4",
+      "ram": "8",
+      "storage": "200"
+    },
+    {
+      "title": "Virtual Private Server",
+      "tier": "PLATINUM",
+      "price": "48",
+      "cpu": "8",
+      "ram": "16",
+      "storage": "200"
+    }
+  ],
+  "webhostingTiers": [
+    {
+      "title": "Web Hosting",
+      "tier": "BRONZE",
+      "price": "15",
+      "diskspace": "500MB",
+      "bandwidth": "10",
+      "account": "20"
+    },
+    {
+      "title": "Web Hosting",
+      "tier": "SILVER",
+      "price": "20",
+      "diskspace": "1GB",
+      "bandwidth": "10",
+      "account": "20"
+    },
+    {
+      "title": "Web Hosting",
+      "tier": "GOLD",
+      "price": "35",
+      "diskspace": "10GB",
+      "bandwidth": "20",
+      "account": "20"
+    },
+    {
+      "title": "Web Hosting",
+      "tier": "PLATINUM",
+      "price": "65",
+      "diskspace": "20GB",
+      "bandwidth": "20",
+      "account": "20"
+    }
+  ],
+  "emailhostingTiers": [
+    {
+      "title": "Email Hosting",
+      "tier": "BRONZE",
+      "price": "15",
+      "diskspace": "10GB",
+      "mailbox": "10"
+    },
+    {
+      "title": "Email Hosting",
+      "tier": "SILVER",
+      "price": "35",
+      "diskspace": "25GB",
+      "mailbox": "50"
+    },
+    {
+      "title": "Email Hosting",
+      "tier": "GOLD",
+      "price": "65",
+      "diskspace": "50GB",
+      "mailbox": "10o"
+    },
+    {
+      "title": "Email Hosting",
+      "tier": "PLATINUM",
+      "price": "110",
+      "diskspace": "75GB",
+      "mailbox": "150"
+    }
+  ]
+}

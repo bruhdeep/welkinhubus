@@ -2,53 +2,52 @@
 import Navbar from "@/components/Navbar";
 import React from "react";
 
-import vpsdata from "@/data/VpsData.json";
-import ProductCard from "@/components/ProductCard";
+import whdata from "@/data/ProductData.json";
+import ProductCard from "@/components/WebhostingCard";
 
-const vps = () => {
+const webhosting = () => {
   return (
     <div>
       <Navbar
         navimg={"homebg.jpg"}
-        navtext={"Virtual Private Server"}
+        navtext={"Web Hosting"}
         learnmorelink={""}
         navdesc={
-          "Unleash Your Online Potential with WelkinHubUS VPS – Where Performance Meets Precision!”"
+          "Unleash the Power of Your Online Presence with WelkinHub Web Hosting."
         }
       />
-      <div className="px-[20%]">
-        <p className="text-[3rem] font-semibold">Why Choose Welkinhub VPS?</p>
+      <div className="lg:px-[20%] px-[2%] pt-5">
+        <p className="text-[3rem] font-semibold">
+          Why Choose Welkinhub Web Hosting?
+        </p>
         <br />
-        <ul className="px-5">
+        <ul className="px-5 list-disc text-justify">
           <li>
-            <span className="font-bold">Our Server, Your Rules:</span> With
-            WelkinHubUS VPS, take full command of your hosting environment.
-            Choose your preferred Operating System and fine-tune resources to
-            align seamlessly with your website's demands.
+            <span className="font-bold">Rock-Solid Reliability:</span> Your
+            website’s availability is our top priority. WelkinHub boasts an
+            impressive uptime record, ensuring that your site is always
+            accessible to your audience. Trust us to keep your digital presence
+            up and running 24/7, 365 days a year.
           </li>
           <li>
-            <span className="font-bold">
-              Unmatched Performance, Uninterrupted Success:
-            </span>{" "}
-            Experience uncompromised performance with our VPS infrastructure.
-            Powered by robust hardware and high-speed network connectivity,
-            WelkinHubUS ensures your applications run smoothly, offering users a
-            seamless and responsive online experience.
+            <span className="font-bold">Robust Security Measures:</span> Our
+            robust security measures protect against threats, giving you peace
+            of mind and allowing you to focus on what matters - your content and
+            business.
           </li>
           <li>
-            <span className="font-bold">
-              Scale with Ease, Grow with Confidence:
-            </span>{" "}
-            Easily adjust resources to meet dynamic demands - whether it,s
-            handling traffic spikes, expanding your online footprint, or
-            launching new services.
+            <span className="font-bold">Intuitive Control Panel:</span>{" "}
+            WelkinHub provides a user-friendly control panel that puts you in
+            control of every aspect of your hosting environment. Whether you’re
+            a seasoned developer or a beginner, our intuitive interface makes
+            website management a breeze.
           </li>
           <li>
-            <span className="font-bold">Security Beyond Boundaries:</span> Our
-            VPS provides isolated server environments, minimizing the risk of
-            security breaches. Benefit from redundant backup systems, ensuring
-            your data is protected and recoverable. Your data's safety is our
-            top priority.
+            <span className="font-bold">Scalability for Your Growth:</span>{" "}
+            WelkinHub offers scalable hosting solutions that adapt to the
+            demands of your expanding online presence. Whether you’re running a
+            personal blog or a thriving e-commerce site, we have the resources
+            to support your growth.
           </li>
           <li>
             <span className="font-bold">24/7 Support:</span> Our expert support
@@ -61,20 +60,21 @@ const vps = () => {
       </div>
       <div className="px-[2%] lg:px-[20%] pt-20">
         <div className="flex flex-wrap justify-center gap-10 mt-5">
-          {vpsdata.vpsTiers.map((data, index) => (
+          {whdata.webhostingTiers.map((data, index) => (
             <ProductCard
+              title={data.title}
               key={index}
               tier={data.tier}
               price={data.price}
-              cpu={data.cpu}
-              ram={data.ram}
-              storage={data.storage}
+              spec1={data.diskspace}
+              spec2={data.bandwidth}
+              spec3={data.account}
             />
           ))}
           <div className="grid bg-white rounded-3xl border-2 w-60">
             <div className="px-6 py-8 sm:p-9 sm:pb-6">
               <div className="grid items-center justify-center w-full grid-cols-1 text-left">
-                <h1>Virtual Private Server</h1>
+                <h1>Web Hosting</h1>
                 <div>
                   <h2 className="text-2xl font-bold tracking-tighter text-black lg:text-3xl">
                     CUSTOM
@@ -82,7 +82,7 @@ const vps = () => {
                 </div>
               </div>
             </div>
-            <div className="px-6 pt-[64%] pb-[12%]">
+            <div className="px-6 pt-[70%] pb-[12%]">
               <a
                 aria-describedby="tier-company"
                 className="flex items-center justify-center w-full px-6 py-2.5 text-center text-white duration-200 bg-black border-2 border-black rounded-full nline-flex hover:bg-transparent hover:border-black hover:text-black focus:outline-none focus-visible:outline-black text-sm focus-visible:ring-black"
@@ -98,4 +98,4 @@ const vps = () => {
   );
 };
 
-export default vps;
+export default webhosting;

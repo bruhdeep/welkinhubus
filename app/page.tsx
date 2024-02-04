@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Card from "@/components/Card";
+import LogoCarousel from "@/components/LogoCarousel";
 import Navbar from "@/components/Navbar";
 
 import cardata from "@/data/CardData.json";
@@ -87,6 +88,8 @@ export default function Home() {
             <FaStar key={i} color="gold" size={30} />
           ))}
         </div> 
+
+        <LogoCarousel />
 
         <div className="w-full lg:h-96 bg-[#262626] rounded-2xl lg:flex text-white mt-20">
           <div className="lg:w-[60%] flex justify-center items-center p-3  ">
