@@ -133,19 +133,23 @@ const Navbar = ({
                 </details>
               </li>
               <li>
-                <a>About Us</a>
+                <a href="/about-us">About Us</a>
               </li>
               <li>
-                <a>Contact Us</a>
+                <a href="/contact-us">Contact Us</a>
               </li>
             </ul>
             <div className="flex gap-5 items-center">
-              <button className="btn btn-sm bg-blue-500 border-none text-white">
-                Support
-              </button>
-              <button>
-                <GoPersonFill size={25} />
-              </button>
+              <Link href={"/contact-us#content"}>
+                <button className="btn btn-sm bg-blue-500 border-none text-white">
+                  Support
+                </button>
+              </Link>
+              <Link href={"https://client.welkinhubus.com/index.php?rp=/login"}>
+                <button>
+                  <GoPersonFill size={25} className="mt-1"/>
+                </button>
+              </Link>
             </div>
           </div>
           <div className="flex justify-between items-center gap-1 lg:hidden">
@@ -269,10 +273,10 @@ const Navbar = ({
                   </details>
                 </li>
                 <li>
-                  <a>About Us</a>
+                  <a href="/about-us">About Us</a>
                 </li>
                 <li>
-                  <a>Contact Us</a>
+                  <a href="/contact-us">Contact Us</a>
                 </li>
               </ul>
             </div>

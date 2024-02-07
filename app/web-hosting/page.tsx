@@ -11,12 +11,12 @@ const webhosting = () => {
       <Navbar
         navimg={"homebg.jpg"}
         navtext={"Web Hosting"}
-        learnmorelink={""}
+        learnmorelink={"#content"}
         navdesc={
           "Unleash the Power of Your Online Presence with WelkinHub Web Hosting."
         }
       />
-      <div className="lg:px-[20%] px-[2%] pt-5">
+      <div id="content" className="lg:px-[20%] px-[2%] pt-5">
         <p className="text-[3rem] font-semibold">
           Why Choose Welkinhub Web Hosting?
         </p>

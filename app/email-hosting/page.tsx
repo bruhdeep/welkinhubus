@@ -11,12 +11,12 @@ const emailhosting = () => {
       <Navbar
         navimg={"homebg.jpg"}
         navtext={"Email Hosting"}
-        learnmorelink={""}
+        learnmorelink={"#content"}
         navdesc={
           "Elevate Your Communication Seamlessly with WelkinHubUS Email Hosting – Where Security Meets Collaboration!"
         }
       />
-      <div className="lg:px-[20%] px-[2%] pt-5">
+      <div id="content" className="lg:px-[20%] px-[2%] pt-5">
         <p className="text-[3rem] font-semibold">
           Why Choose Welkinhub E-mail Hosting?
         </p>

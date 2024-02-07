@@ -8,12 +8,12 @@ const emailhosting = () => {
       <Navbar
         navimg={"homebg.jpg"}
         navtext={"Backup & Replication"}
-        learnmorelink={""}
+        learnmorelink={"#content"}
         navdesc={
           "Safeguarding Tomorrow, Today - WelkinHubUS Backup and Replication, Your Digital Fortress!"
         }
       />
-      <div className="lg:px-[20%] px-[2%] pt-5">
+      <div id="content" className="lg:px-[20%] px-[2%] pt-5">
         <p className="text-[3rem] font-semibold">
           Our services and strategies in Digital World.
         </p>

@@ -11,12 +11,12 @@ const vps = () => {
       <Navbar
         navimg={"homebg.jpg"}
         navtext={"Virtual Private Server"}
-        learnmorelink={""}
+        learnmorelink={"#content"}
         navdesc={
-          "Unleash Your Online Potential with WelkinHubUS VPS – Where Performance Meets Precision!”"
+          "Unleash Your Online Potential with WelkinHubUS VPS - Where Performance Meets Precision!”"
         }
       />
-      <div className="lg:px-[20%] px-[2%] pt-5">
+      <div id="content" className="lg:px-[20%] px-[2%] pt-5">
         <p className="text-[3rem] font-semibold">Why Choose Welkinhub VPS?</p>
         <br />
         <ul className="px-5 list-disc text-justify">
