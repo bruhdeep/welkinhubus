@@ -1,3 +1,5 @@
+"use client";
+
 /* eslint-disable @next/next/no-img-element */
 import Card from "@/components/Card";
 import LogoCarousel from "@/components/LogoCarousel";
@@ -89,7 +91,9 @@ export default function Home() {
           ))}
         </div> 
 
-        <LogoCarousel />
+        <div className="mt-20">
+          <LogoCarousel />
+        </div>
 
         <div className="w-full lg:h-96 bg-[#262626] rounded-2xl lg:flex text-white mt-20">
           <div className="lg:w-[60%] flex justify-center items-center p-3  ">
@@ -97,7 +101,7 @@ export default function Home() {
               <img
                 src="https://welkinhubus.com/wp-content/uploads/2023/08/col-img-5.jpg"
                 alt="techtalkimg"
-                className="w-full h-full "
+                className="w-full h-full "  
               />
             </div>
           </div>
