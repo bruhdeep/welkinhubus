@@ -67,6 +67,71 @@ const emailhosting = () => {
             </div>
           </div>
         </div>
+        <div className="divider"></div>
+        <div className="flex flex-wrap">
+          <div className="w-[50%]">
+            <p className="text-3xl font-bold">Support</p>
+            <br />
+            <p>
+              For Services related issues,{" "}
+              <span className="text-[#08ACF2]">
+                <a href="#content">click here</a>
+              </span>
+            </p>
+            <br />
+            <p>
+              For Job Placement & IT Training related issues,{" "}
+              <span className="text-[#08ACF2]">
+                <a href="#content">click here</a>
+              </span>
+            </p>
+          </div>
+          <div className="w-[50%]">
+            <p className="text-3xl font-bold">Send Us a Message</p>
+            <br />
+            <p>We would love to hear from you!</p>
+            <form action="">
+              <label className="form-control w-full">
+                <div className="label">
+                  <span className="label-text">Name</span>
+                </div>
+                <input
+                  type="text"
+                  placeholder=""
+                  className="input input-bordered w-full"
+                />
+              </label>
+              <label className="form-control w-full">
+                <div className="label">
+                  <span className="label-text">Email</span>
+                </div>
+                <input
+                  type="text"
+                  placeholder=""
+                  className="input input-bordered w-full"
+                />
+              </label>
+              <label className="form-control w-full">
+                <div className="label">
+                  <span className="label-text">Contact</span>
+                </div>
+                <input
+                  type="text"
+                  placeholder=""
+                  className="input input-bordered w-full"
+                />
+              </label>
+              <label className="form-control w-full">
+                <div className="label">
+                  <span className="label-text">Contact</span>
+                </div>
+                <textarea className="textarea textarea-bordered" placeholder=""></textarea>
+              </label>
+              <br />
+              <button className="btn">Submit</button>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
   );
