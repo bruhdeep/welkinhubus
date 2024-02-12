@@ -14,9 +14,9 @@ const Card = ({
   redirecturl: string;
 }) => {
   return (
-    <div className="flex justify-center">
-      <div className="w-[90%] md:w-60 h-[100%] bg-neutral-800 rounded-3xl text-neutral-200 p-4 flex flex-col items-start justify-center gap-3 hover:bg-gray-900 hover:shadow-2xl hover:shadow-sky-400 transition-shadow">
-        <div className="w-52 h-[43%] bg-sky-300 rounded-2xl">
+    <div className="h-80 lg:h-96 overflow-hidden">
+      <div className="w-full h-full bg-neutral-800 rounded-3xl text-neutral-200 p-4 flex flex-col items-start justify-center gap-3 hover:bg-gray-900 hover:shadow-2xl hover:shadow-sky-400 transition-shadow">
+        <div className="w-full h-[60%] bg-sky-300 rounded-2xl">
           <img
             src={imageurl}
             alt=""

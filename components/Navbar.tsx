@@ -21,7 +21,7 @@ const Navbar = ({
   return (
     <div
       className="h-[40rem] bg-cover rounded-br-[8rem] text-white"
-      style={{ backgroundImage: backgroundImageUrl }}
+      style={{ background: backgroundImageUrl }}
     >
       <div className="flex justify-between lg:px-[20%] px-[5%] pt-5">
         <div>

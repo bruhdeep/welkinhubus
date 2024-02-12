@@ -14,14 +14,14 @@ export default function Home() {
   return (
     <div className="">
       <Navbar
-        navimg={"homebg.jpg"}
+        navimg={"/backgrounds/homebg.jpg"}
         navtext={"Connecting Technology to the needs of Business"}
         navdesc={""}
         learnmorelink={"#managedservice"}
       />
       <div className="lg:px-[20%] px-[10%]">
         <div className="text-3xl font-bold pt-5" id="managedservice">Managed Services</div>
-        <div className="flex flex-wrap gap-10 mt-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 mt-5">
           {cardata.managedServices.map((data, index) => (
             <Card
               key={index}

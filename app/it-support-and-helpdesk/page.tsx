@@ -6,7 +6,7 @@ const emailhosting = () => {
   return (
     <div>
       <Navbar
-        navimg={"homebg.jpg"}
+        navimg={"/backgrounds/itsupportbg.jpg"}
         navtext={"IT Support and Helpdesk"}
         learnmorelink={"#content"}
         navdesc={
