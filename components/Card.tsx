@@ -14,7 +14,7 @@ const Card = ({
   redirecturl: string;
 }) => {
   return (
-    <div className="h-80 lg:h-96 overflow-hidden">
+    <div className="h-80 lg:h-96">
       <div className="w-full h-full bg-neutral-800 rounded-3xl text-neutral-200 p-4 flex flex-col items-start justify-center gap-3 hover:bg-gray-900 hover:shadow-2xl hover:shadow-sky-400 transition-shadow">
         <div className="w-full h-[60%] bg-sky-300 rounded-2xl">
           <img

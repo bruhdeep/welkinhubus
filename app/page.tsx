@@ -6,6 +6,7 @@ import LogoCarousel from "@/components/LogoCarousel";
 import Navbar from "@/components/Navbar";
 
 import cardata from "@/data/CardData.json";
+import Link from "next/link";
 
 import { FaStar } from "react-icons/fa";
 import { IoCall } from "react-icons/io5";
@@ -36,7 +37,7 @@ export default function Home() {
         <div className="text-3xl font-bold pt-5">
           Software Development and Consulting
         </div>
-        <div className="flex flex-wrap gap-10 mt-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 mt-5">
           {cardata.softwareServices.map((data, index) => (
             <Card
               key={index}
@@ -49,7 +50,7 @@ export default function Home() {
         </div>
 
         <div className="text-3xl font-bold pt-5">Education and Placement</div>
-        <div className="flex flex-wrap gap-10 mt-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 mt-5">
           {cardata.educationservices.map((data, index) => (
             <Card
               key={index}
@@ -62,7 +63,7 @@ export default function Home() {
         </div>
 
         <div className="text-3xl font-bold pt-5">Others</div>
-        <div className="flex flex-wrap gap-10 mt-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 mt-5">
           {cardata.otherservices.map((data, index) => (
             <Card
               key={index}
@@ -115,9 +116,11 @@ export default function Home() {
                 you.
               </div>
               <br />
-              <button className="flex gap-2 items-center bg-[#08ACF2] px-3 py-2 rounded-xl">
+              <Link href={"/contact-us#content"}><button className="flex gap-2 items-center bg-[#08ACF2] px-3 py-2 rounded-xl">
                 <IoCall /> Call now
               </button>
+              </Link>
+              
             </div>
           </div>
         </div>
