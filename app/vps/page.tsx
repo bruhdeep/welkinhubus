@@ -9,7 +9,7 @@ const vps = () => {
   return (
     <div>
       <Navbar
-        navimg={"homebg.jpg"}
+        navimg={"backgrounds/vpsbg.jpg"}
         navtext={"Virtual Private Server"}
         learnmorelink={"#content"}
         navdesc={

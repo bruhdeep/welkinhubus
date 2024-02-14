@@ -9,7 +9,7 @@ const webhosting = () => {
   return (
     <div>
       <Navbar
-        navimg={"homebg.jpg"}
+        navimg={"backgrounds/webgbg.jpg"}
         navtext={"Web Hosting"}
         learnmorelink={"#content"}
         navdesc={

@@ -6,7 +6,7 @@ const emailhosting = () => {
   return (
     <div>
       <Navbar
-        navimg={"homebg.jpg"}
+        navimg={"backgrounds/philipp-katzenberger-iIJrUoeRoCQ-unsplash.jpg"}
         navtext={"Cloud Computing"}
         learnmorelink={"#content"}
         navdesc={"Unleash Potential in the Cloud with Welkin Hub's Expertise."}

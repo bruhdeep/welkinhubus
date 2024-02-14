@@ -16,12 +16,12 @@ const Navbar = ({
   navdesc: string;
   learnmorelink: string;
 }) => {
-  const backgroundImageUrl = `url(${navimg})`;
+  const backgroundImageUrl = `linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(${navimg})`;
 
   return (
     <div
       className="h-[40rem] bg-cover rounded-br-[8rem] text-white"
-      style={{ background: backgroundImageUrl }}
+      style={{ background: backgroundImageUrl, backgroundSize: "cover", backgroundPosition: "center" }}
     >
       <div className="flex justify-between lg:px-[20%] px-[5%] pt-5">
         <div>
